@@ -1,0 +1,72 @@
+.mainheading {
+    font-size: 3rem;
+}
+
+.subheading {
+    font-size: 1.6rem;
+}
+
+.mainimg {
+    img {
+        width: 40rem;
+    }
+}
+
+.h-c {
+    height: 16rem !important;
+}
+
+.h-cp1,
+.h-cp2,
+.h-cp3 {
+    color: white !important;
+}
+
+
+.h-cb1:hover {
+    background-color: white !important;
+
+    .h-cp1 {
+        color: #f5365c !important;
+    }
+}
+
+.h-cb2:hover {
+    background-color: white !important;
+
+    .h-cp2 {
+        color: #5e72e4 !important;
+    }
+}
+
+.h-cb3:hover {
+    background-color: white !important;
+
+    .h-cp3 {
+        color: #2dce89 !important;
+    }
+}
+
+.h-cb1 {
+    background-color: #f5365c !important;
+
+    .h-cp1 {
+        color: white !important;
+    }
+}
+
+.h-cb2 {
+    background-color: #5e72e4 !important;
+
+    .h-cp2 {
+        color: white !important;
+    }
+}
+
+.h-cb3 {
+    background-color: #2dce89 !important;
+
+    .h-cp3 {
+        color: white !important;
+    }
+}

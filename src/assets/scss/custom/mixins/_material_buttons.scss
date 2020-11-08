@@ -1,0 +1,345 @@
+.sm-danger {
+  color: #e9140d;
+  font-weight: 500;
+  background-color: #e9140d18;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.sm-pale-green {
+  color: #00b749;
+  font-weight: 500;
+  background-color: #00b74918;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.sm-warning {
+  color: #f6b42f;
+  font-weight: 500;
+  background-color: #f6b42f27;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.sm-brown {
+  color: #c74301;
+  font-weight: 500;
+  background-color: #c7430118;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.sm-primary {
+  color: #007bff;
+  font-weight: 500;
+  background-color: #007bff16;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.menu-item {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: block !important;
+  line-height: 40px !important;
+  height: 40px !important;
+  margin: 0px 10px 0px 10px !important;
+  padding: 0 14px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  max-width: 100% !important;
+  position: relative !important;
+  font-size: 16px;
+}
+
+.menu-item:hover {
+  font-size: 16px;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: block !important;
+  line-height: 40px !important;
+  height: 40px !important;
+  margin: 0px 10px 0px 10px !important;
+  padding: 0 14px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  max-width: 100% !important;
+  position: relative !important;
+  background-color: #1021a1 !important;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(42, 42, 42, 0.397);
+}
+
+.tooltip_requested_admin {
+  margin-left: -60px !important;
+}
+
+.tooltip_business_entity_role {
+  margin-left: -80px !important;
+  width: 250px !important;
+}
+
+.mandate::after {
+  content: "*" !important;
+  color: red !important;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+.butn-sm-i {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border: none !important;
+  border-radius: 5px !important;
+  min-width: 30px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  cursor: pointer;
+  color: black;
+  background-color: #d1d1d1;
+  outline: none !important;
+}
+.butn-sm {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border: none !important;
+  border-radius: 5px !important;
+  min-width: 92px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  cursor: pointer;
+  color: black;
+  background-color: #d1d1d1;
+  outline: none !important;
+}
+.butn-sm:disabled {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border-radius: 5px !important;
+  min-width: 92px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  cursor: not-allowed;
+  color: black;
+  background-color: #d1d1d1;
+  outline: none !important;
+}
+.butn {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border: none !important;
+  border-radius: 5px !important;
+  min-width: 120px !important;
+  height: 38px !important;
+  font-size: 16px !important;
+  cursor: pointer;
+  color: black;
+  background-color: #d1d1d1;
+  outline: none !important;
+}
+
+.butn:disabled {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border-radius: 5px !important;
+  min-width: 120px !important;
+  height: 38px !important;
+  font-size: 16px !important;
+  /* text-transform: uppercase; */
+  cursor: not-allowed;
+  color: black;
+  background-color: #d1d1d1;
+  /* box-shadow: 0 0 4px #999; */
+  outline: none !important;
+}
+
+.butn:hover {
+  background: #e2e1e1 radial-gradient(circle, transparent 1%, #d1d1d1 1%) center/15000%;
+}
+
+.butn:active {
+  background-color: #e2e1e1;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* ---------------------All Buttons--------------------------- */
+
+/* Refresh Button */
+.butn-refresh {
+  background-color: #fff5e0 !important;
+  color: #f6b42f !important;
+}
+.butn-refresh:hover {
+  background: #fffbf2 radial-gradient(circle, transparent 1%, #fffbf2 1%) center/15000% !important;
+  color: #ffc551 !important;
+}
+
+.butn-refresh:active {
+  background-color: #fff5e0 !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+/* Prmary Button */
+
+.butn-primary {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+.butn-primary:disabled {
+  background-color: #5baaff !important;
+  color: white !important;
+}
+
+.butn-primary:hover {
+  background: #409cff radial-gradient(circle, transparent 1%, #409cff 1%) center/15000% !important;
+}
+
+.butn-primary:active {
+  background-color: #2990ff !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.butn-primary-outline {
+  background-color: white !important;
+  color: #2990ff !important;
+  border: 1px solid #2990ff !important;
+}
+.butn-primary-outline:hover {
+  background-color: #2990ff !important;
+  color: white !important;
+  border: 1px solid #2990ff !important;
+}
+
+/* Dark Button */
+
+.butn-dark {
+  background-color: #202830 !important;
+  color: white !important;
+}
+
+.butn-dark:disabled {
+  background-color: #656d76 !important;
+  color: white !important;
+}
+
+.butn-dark:hover {
+  background: #3f4348 radial-gradient(circle, transparent 1%, #3f4348 1%) center/15000% !important;
+}
+
+.butn-dark:active {
+  background-color: #23303c !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.butn-dark-outline {
+  background-color: white !important;
+  color: #0d1115 !important;
+  border: 1px solid #0d1115 !important;
+}
+.butn-dark-outline:hover {
+  background-color: #0d1115 !important;
+  color: white !important;
+  border: 1px solid #0d1115 !important;
+}
+
+/* Danger Button */
+
+.butn-danger {
+  background-color: #e80112 !important;
+  color: white !important;
+}
+
+.butn-danger:disabled {
+  background-color: #ff4b57 !important;
+  color: white !important;
+}
+
+.butn-danger:hover {
+  background: #e94550 radial-gradient(circle, transparent 1%, #e94550 1%) center/15000% !important;
+}
+
+.butn-danger:active {
+  background-color: #fa3b3b !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.butn-danger-outline {
+  background-color: white !important;
+  color: #fa3b3b !important;
+  border: 1px solid #fa3b3b !important;
+}
+.butn-danger-outline:hover {
+  background-color: #fa3b3b !important;
+  color: white !important;
+  border: 1px solid #fa3b3b !important;
+}
+
+/* Success Button */
+
+.butn-success {
+  background-color: #28a745 !important;
+  color: white !important;
+}
+
+.butn-success:disabled {
+  background-color: #58cb73 !important;
+  color: white !important;
+}
+
+.butn-success:hover {
+  background: #31c554 radial-gradient(circle, transparent 1%, #31c554 1%) center/15000% !important;
+}
+
+.butn-success:active {
+  outline: none;
+  background-color: #35d259 !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.butn-success-outline {
+  background-color: white !important;
+  color: #28a745 !important;
+  border: 1px solid #28a745 !important;
+}
+.butn-success-outline:hover {
+  background-color: #28a745 !important;
+  color: white !important;
+  border: 1px solid #28a745 !important;
+}
+/* Warning Button */
+
+.butn-warning {
+  background-color: #ffc107 !important;
+  color: white !important;
+}
+
+.butn-warning:disabled {
+  background-color: #ffd65b !important;
+  color: white !important;
+}
+
+.butn-warning:hover {
+  background: #ffc823 radial-gradient(circle, transparent 1%, #ffc823 1%) center/15000% !important;
+}
+
+.butn-warning:active {
+  outline: none;
+  background-color: #ffd455 !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+
+.butn-warning-outline {
+  background-color: white !important;
+  color: #ffd455 !important;
+  border: 1px solid #ffd455 !important;
+}
+.butn-warning-outline:hover {
+  background-color: #ffd455 !important;
+  color: white !important;
+  border: 1px solid #ffd455 !important;
+}
