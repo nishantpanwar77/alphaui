@@ -1,13 +1,13 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: "AIzaSyCZv2TMfyl8eOx3lg39sCopSWoglNlNeyA",
-    authDomain: "bridgecodesolutions.firebaseapp.com",
-    databaseURL: "https://bridgecodesolutions.firebaseio.com",
-    projectId: "bridgecodesolutions",
-    storageBucket: "bridgecodesolutions.appspot.com",
-    messagingSenderId: "692576371578",
-    appId: "1:692576371578:web:f04376163b5dbb49408cc3",
-    measurementId: "G-BTHPK7ER63"
+    apiKey: 'AIzaSyDOM6J-8tnYzXrAtParqcK_nLlybgFnlMc',
+    authDomain: 'alphaui.firebaseapp.com',
+    databaseURL: 'https://alphaui.firebaseio.com',
+    projectId: 'alphaui',
+    storageBucket: 'alphaui.appspot.com',
+    messagingSenderId: '501694921073',
+    appId: '1:501694921073:web:bfb44ecaa95d3f5b5a5ed0',
+    measurementId: 'G-TRYYJ8H3N1'
   }
 };
