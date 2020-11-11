@@ -34,10 +34,10 @@ import { WebsocketService } from './services/websocket.service';
     AppRoutingModule,
     AngularFireAuthModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBRKsg3pXIg8kgR0uPeme8G8xrSD7PdzxU',
-      libraries: ['places']
-    }),
+    // AgmCoreModule.forRoot({
+    //   apiKey: '',
+    //   libraries: ['places']
+    // }),
   ],
   providers: [WebsocketService],
   bootstrap: [AppComponent], schemas: [CUSTOM_ELEMENTS_SCHEMA]

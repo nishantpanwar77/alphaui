@@ -7,6 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'aui', loadChildren: () => import('./Components/components.module').then(m => m.ComponentsModule) },
 ];
 

@@ -1,7 +1,7 @@
 <main class="pb-5">
   <div class="position-relative">
     <section class="section section-lg section-hero section-shaped">
-      <div class="shape shape-light">
+      <div class="shape shape-light main-bg">
       </div>
       <div class="container shape-container d-flex align-items-center py-lg-0">
         <div class="row mt-5 align-items-center justify-content-center">
@@ -9,34 +9,20 @@
             <h1 class="text-black-50 mainheading">Let's build a better UI</h1>
             <p class="text-black-50 subheading">with a cool design system</p>
             <div class="btn-wrapper mt-5">
-              <button class="btn btn-1 btn-neutral floating" type="button">Explore
+              <button [routerLink]="['/aui/information']" routerLinkActive="router-link-active"
+                class="btn btn-1 btn-neutral floating" type="button">Explore
                 Now</button>
             </div>
           </div>
           <div class="col d-none d-md-block "></div>
         </div>
       </div>
+      <br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br>
     </section>
   </div>
   <br>
   <br>
   <br>
 </main>
-
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col-2 bg-danger">
-      <div class="sidebar-item">
-        <div class="make-me-sticky">
-          <button [routerLink]="['/aui/buttons']" routerLinkActive="router-link-active"  class="aui-ripple">Buttons</button>
-          <button [routerLink]="['/progress-bars']" routerLinkActive="router-link-active"  class="aui-ripple">Pregress Bars</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-10">
-      <div class="content-section">
-        <router-outlet></router-outlet>
-      </div>
-    </div>
-  </div>
-</div> -->

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2 bg-white">
+      <div class="sidebar-item">
+        <div class="make-me-sticky">
+          <button [routerLink]="['']" routerLinkActive="router-link-active"  class="aui-ripple">Home</button>
+          <button [routerLink]="['/aui/information']" routerLinkActive="router-link-active"  class="aui-ripple">Introduction</button>
+          <button [routerLink]="['/aui/buttons']" routerLinkActive="router-link-active"  class="aui-ripple">Buttons</button>
+          <button [routerLink]="['/aui/progress-bars']" routerLinkActive="router-link-active"  class="aui-ripple">Pregress Bars</button>
+          <button routerLinkActive="router-link-active"  class="aui-ripple">Material Cards</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-10">
+      <div class="content-section">
+        <div class="container pt-150">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
