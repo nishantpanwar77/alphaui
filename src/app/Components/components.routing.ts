@@ -1,3 +1,4 @@
+import { AuiCardsComponent } from './aui-cards/aui-cards.component';
 import { AuiInformationComponent } from './aui-information/aui-information.component';
 import { AuiButtonComponent } from './aui-button/aui-button.component';
 import { Routes, RouterModule } from '@angular/router';
@@ -10,6 +11,7 @@ const routes: Routes = [
       { path: 'information', component: AuiInformationComponent },
       { path: 'buttons', component: AuiButtonComponent },
       { path: 'progress-bars', component: AuiProgressbarComponent },
+      { path: 'cards', component: AuiCardsComponent },
     ]
   },
 

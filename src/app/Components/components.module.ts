@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AuiProgressbarComponent } from './aui-progressbar/aui-progressbar.component';
 import { ComponentsComponent } from './components';
+import { AuiCardsComponent } from './aui-cards/aui-cards.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { ComponentsComponent } from './components';
   declarations: [
     ComponentsComponent,
     AuiProgressbarComponent,
-    AuiButtonComponent
+    AuiButtonComponent,
+    AuiCardsComponent
   ]
 })
 export class ComponentsModule { }
